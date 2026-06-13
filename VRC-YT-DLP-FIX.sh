@@ -10,4 +10,4 @@ mkdir -p "$TARGET_DIR"
 
 curl -L "$YTDLP_URL" -o "$TARGET_FILE"
 
-exit
+exit 1
